@@ -33,7 +33,8 @@ char *error_token = NULL;
 "COUNT"             {yylval.token = yytext; return(COUNT);}
 "AND"               {yylval.token = yytext; return(AND);}
 "OR"                {yylval.token = yytext; return(OR);}
-
+"DESC"                {yylval.token = yytext; return(DESC);}
+"ASC"                {yylval.token = yytext; return(ASC);}
 
 "VARCHAR"           {yylval.token = yytext; return(VARCHAR);}
 "INTEGER"           {yylval.token = yytext; return(INTEGER);}

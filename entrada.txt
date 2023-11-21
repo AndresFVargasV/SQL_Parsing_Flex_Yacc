@@ -1,0 +1,1 @@
+INSERT INTO estudiante VALUES(2, "h ola" , "h ola", 3, 3, 5, 21.9, 303);

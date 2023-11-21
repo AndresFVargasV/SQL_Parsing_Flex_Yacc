@@ -80,8 +80,8 @@ valorc: valor|ID
 IDS:  ID
     | ID COMA IDS
     
-ORDERS:ASC
-      |DESC
+ORDERS: ASC
+      | DESC
 
 argumentos: argumento
      |argumento COMA argumentos
@@ -101,8 +101,8 @@ operador: IGUAL
         |'<''>'
         |'>'
         |'<'
-        |'>''='
-        |'<''='
+        |'>'IGUAL
+        |'<'IGUAL
         |'+'
         |'*'
         |'-'
